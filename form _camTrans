@@ -1,0 +1,41 @@
+[33mcommit 29cc89f637a273f38ae3e30d000e53d6cd96333d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Mantey Caleb <manteycaleb@gmail.com>
+Date:   Tue Mar 7 12:28:38 2023 +0000
+
+    added 3 more helper scripts
+
+[33mcommit 2f728d176b71450645b2de0aa865b2dc2bc28187[m
+Author: Mantey Caleb <manteycaleb@gmail.com>
+Date:   Tue Mar 7 09:12:00 2023 +0000
+
+    added pool system helper script and organized folder structure
+
+[33mcommit 98d615c9e91df6eb718cb6cb5db7afc9b9ebd733[m
+Author: Mantey Caleb <manteycaleb@gmail.com>
+Date:   Tue Mar 7 09:00:30 2023 +0000
+
+    sample scene setup with xr interaction toolkit
+
+[33mcommit 9e9b11197ce3ea2319821075e16a70f41e878615[m
+Author: Mantey Caleb <manteycaleb@gmail.com>
+Date:   Mon Mar 6 23:21:41 2023 +0000
+
+    added xr mangement plugin
+
+[33mcommit 97de04da30ad140250e598484b8eea995627ce18[m
+Author: Mantey Caleb <manteycaleb@gmail.com>
+Date:   Mon Mar 6 21:33:12 2023 +0000
+
+    added oculus xr plugin plugin
+
+[33mcommit f61497f0f5aef2ea7cf1713e3e9819693f0e2ccb[m
+Author: Mantey Caleb <manteycaleb@gmail.com>
+Date:   Mon Mar 6 21:32:04 2023 +0000
+
+    added XR interaction toolkit plugin
+
+[33mcommit e44ecd4107fadec285488373584ba104d07e2a11[m
+Author: Mantey Caleb <manteycaleb@gmail.com>
+Date:   Mon Mar 6 17:05:14 2023 +0000
+
+    initialized new project
