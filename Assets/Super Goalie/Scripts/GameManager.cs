@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float _gameTime = 180f;
     [SerializeField] private float _panicTime = 10f;
 
-    [SerializeField] private float _timeBetweenKicks = 3f;
+    [SerializeField] private float _timeBetweenKicks = 5f;
 
     [SerializeField] private GameObject _tikTimerObj;
 
@@ -51,7 +51,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (_hasEnded) return;
+        if (_hasEnded)
+        {
+            _Timer.text = "0:00";
+            return;
+        }
         
         _currentTime = Time.time - _startTime;
         _remainingTime = _gameTime - _currentTime;
@@ -64,7 +68,6 @@ public class GameManager : MonoBehaviour
             _tikTimerObj.SetActive(false);
             EndGame();
             ShowOrHidePauseItems(true);
-            _Timer.text = "0:00";
             _endGameMenu.SetActive(true);
             _hasEnded = true;
         }

@@ -740,11 +740,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMax
-      value: 4.7
+      value: 4.68
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMin
-      value: 4.5
+      value: 4.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
+      propertyPath: _goalBounds.yMax
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 8815154873449305773, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: m_Name
@@ -4526,7 +4530,7 @@ MonoBehaviour:
   - {fileID: 919132148341445937}
   _gameTime: 180
   _panicTime: 10
-  _timeBetweenKicks: 3
+  _timeBetweenKicks: 5
   _tikTimerObj: {fileID: 1964293193}
   _playerSpawner: {fileID: 1232587410}
 --- !u!1 &1628819274
@@ -4763,11 +4767,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMax
-      value: 4.7
+      value: 4.68
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMin
-      value: 4.5
+      value: 4.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
+      propertyPath: _goalBounds.yMax
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 8815154873449305773, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: m_Name
@@ -5174,11 +5182,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMax
-      value: 4.7
+      value: 4.68
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMin
-      value: 4.5
+      value: 4.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
+      propertyPath: _goalBounds.yMax
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 8815154873449305773, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: m_Name
@@ -5843,11 +5855,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMax
-      value: 4.7
+      value: 4.68
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMin
-      value: 4.5
+      value: 4.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
+      propertyPath: _goalBounds.yMax
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 8815154873449305773, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: m_Name
@@ -6015,7 +6031,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 20
-  scoreCanvas: {fileID: 0}
 --- !u!65 &2143931156340010593
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6159,7 +6174,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 20
-  scoreCanvas: {fileID: 0}
 --- !u!65 &5619957622946209277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6238,11 +6252,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMax
-      value: 4.7
+      value: 4.68
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMin
-      value: 4.5
+      value: 4.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
+      propertyPath: _goalBounds.yMax
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 8815154873449305773, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: m_Name
