@@ -778,7 +778,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &471500278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1778,6 +1778,7 @@ GameObject:
   - component: {fileID: 803742678}
   - component: {fileID: 803742677}
   - component: {fileID: 803742676}
+  - component: {fileID: 803742679}
   m_Layer: 5
   m_Name: EndGameScreen
   m_TagString: Untagged
@@ -1867,6 +1868,25 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &803742679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803742674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &815493712
 GameObject:
   m_ObjectHideFlags: 0
@@ -4264,6 +4284,7 @@ GameObject:
   - component: {fileID: 1445554197}
   - component: {fileID: 1445554196}
   - component: {fileID: 1445554195}
+  - component: {fileID: 1445554198}
   m_Layer: 5
   m_Name: PauseMenu
   m_TagString: Untagged
@@ -4353,6 +4374,25 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1445554198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445554193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &1479017872
 GameObject:
   m_ObjectHideFlags: 0
@@ -4818,6 +4858,7 @@ GameObject:
   - component: {fileID: 1889673706}
   - component: {fileID: 1889673705}
   - component: {fileID: 1889673704}
+  - component: {fileID: 1889673708}
   m_Layer: 5
   m_Name: ScoreBoard
   m_TagString: Untagged
@@ -4907,6 +4948,25 @@ RectTransform:
   m_AnchoredPosition: {x: 5.86, y: 14.94}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1889673708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889673703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &1893576262
 GameObject:
   m_ObjectHideFlags: 0
@@ -5147,6 +5207,7 @@ GameObject:
   - component: {fileID: 1947313215}
   - component: {fileID: 1947313214}
   - component: {fileID: 1947313213}
+  - component: {fileID: 1947313217}
   m_Layer: 5
   m_Name: StartScreen
   m_TagString: Untagged
@@ -5236,6 +5297,25 @@ RectTransform:
   m_AnchoredPosition: {x: 4.77, y: 1.19}
   m_SizeDelta: {x: 2781.8, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1947313217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947313212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &1964293193
 GameObject:
   m_ObjectHideFlags: 0
