@@ -4492,7 +4492,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 0
 --- !u!222 &1479017875
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4557,7 +4557,9 @@ MonoBehaviour:
   _timeBetweenKicks: 5
   _tikTimerObj: {fileID: 1964293193}
   _playerSpawner: {fileID: 1232587410}
-  lineVisuals: []
+  lineVisuals:
+  - {fileID: 1055724512}
+  - {fileID: 1164393322}
 --- !u!1 &1628819274
 GameObject:
   m_ObjectHideFlags: 0
