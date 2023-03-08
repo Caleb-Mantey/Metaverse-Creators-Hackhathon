@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.XR.Interaction.Toolkit;
 
 
 public class GameManager : MonoBehaviour
@@ -20,6 +21,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _tikTimerObj;
 
     [SerializeField] private GameObject _playerSpawner;
+
+    [SerializeField] private XRInteractorLineVisual[] lineVisuals; 
     
     private float _currentTime = 0f;
     private float _remainingTime = 0f;
@@ -83,6 +86,15 @@ public class GameManager : MonoBehaviour
         if (_remainingTime <= 60 && _remainingTime >= 55) _timeBetweenKicks = 2.5f;
     }
 
+
+    private void toogleLineVisuals(bool active)
+    {
+        foreach (var lineVisual in lineVisuals)
+        {
+            lineVisual.enabled = active;
+        }
+    }
+    
     public bool HasStarted()
     {
         return _playerSpawner.activeSelf;
@@ -117,6 +129,7 @@ public class GameManager : MonoBehaviour
 
     private void EndGame()
     {
+        toogleLineVisuals(true);
         DestroyAllBalls();
         DestroyAllPlayers();
     }
@@ -147,6 +160,7 @@ public class GameManager : MonoBehaviour
     public void PauseGame(bool isPaused)
     {
         _isPaused = isPaused;
+        toogleLineVisuals(isPaused);
         _pauseMenu.SetActive(isPaused);
         ShowOrHidePauseItems(isPaused);
         Time.timeScale = _isPaused ? 0 : 1;
