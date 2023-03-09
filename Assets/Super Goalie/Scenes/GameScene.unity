@@ -764,15 +764,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMax
-      value: 4.68
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMin
-      value: 4.65
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.yMax
-      value: 4.4
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
+      propertyPath: _goalBounds.yMin
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 8815154873449305773, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: m_Name
@@ -1051,7 +1055,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1702430831}
   m_Father: {fileID: 308514371}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4551,7 +4556,7 @@ MonoBehaviour:
   _pauseItems:
   - {fileID: 1445554193}
   _gameItems:
-  - {fileID: 919132148341445937}
+  - {fileID: 1232587410}
   _gameTime: 180
   _panicTime: 10
   _timeBetweenKicks: 5
@@ -4675,6 +4680,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680293534}
   m_CullTransparentMesh: 1
+--- !u!1 &1702430830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1702430831}
+  - component: {fileID: 1702430833}
+  - component: {fileID: 1702430832}
+  m_Layer: 0
+  m_Name: HeadHitDetector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1702430831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702430830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 601830876}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1702430832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702430830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8eb8f2cc5fd9a48869ec33df7c47a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 50
+--- !u!136 &1702430833
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702430830}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.13
+  m_Height: 0.13
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1744581080
 GameObject:
   m_ObjectHideFlags: 0
@@ -4794,15 +4859,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMax
-      value: 4.68
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMin
-      value: 4.65
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.yMax
-      value: 4.4
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
+      propertyPath: _goalBounds.yMin
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 8815154873449305773, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: m_Name
@@ -5209,15 +5278,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMax
-      value: 4.68
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMin
-      value: 4.65
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.yMax
-      value: 4.4
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
+      propertyPath: _goalBounds.yMin
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 8815154873449305773, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: m_Name
@@ -5882,15 +5955,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMax
-      value: 4.68
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMin
-      value: 4.65
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.yMax
-      value: 4.4
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
+      propertyPath: _goalBounds.yMin
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 8815154873449305773, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: m_Name
@@ -5973,11 +6050,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4617c55b8594b47408e3bdff83c306bf, type: 3}
---- !u!1 &919132148341445937 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8815154873449305773, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
-  m_PrefabInstance: {fileID: 8544684700524299164}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1496913818717219055
 Transform:
   m_ObjectHideFlags: 0
@@ -6279,15 +6351,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMax
-      value: 4.68
+      value: 5.3
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.xMin
-      value: 4.65
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: _goalBounds.yMax
-      value: 4.4
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544684701857803263, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
+      propertyPath: _goalBounds.yMin
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 8815154873449305773, guid: 333e23faa36982b4c8232e1a16475f7d, type: 3}
       propertyPath: m_Name
